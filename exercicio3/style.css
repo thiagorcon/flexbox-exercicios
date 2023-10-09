@@ -7,7 +7,7 @@ main{
   display: flex;
   gap: 20px;
   padding: 20px;
-  width: 800px;
+   width: 800px;
   margin: 0 auto;
   background-color: orange;
 }
@@ -19,20 +19,32 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-basis: 80px;
+  flex-basis: 80px; 
+
 }
 
 #section-1{
+  order: 2;
+  /* flex-grow: 1; */
+  /* flex-basis: 50%; */
 }
 
 #section-2{
+  order: 3;
+   flex-basis: 40%; 
 }
 
 #section-3{
+  order: 4;
+  flex-basis: 60%; 
 }
 
 #section-4{
+  order: 5;
+   flex-basis: 200px; 
+  
 }
 
 #section-5{
-}
+
+  order: 1;}
